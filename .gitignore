@@ -1,0 +1,23 @@
+# Ignore .env files in the frontend folder
+/my-calendar/.env
+
+# Ignore .env files in the backend folder
+/backend/.env
+
+# Ignore any other .env files in the project
+*.env
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore logs
+*.log
+
+# Ignore build or output directories
+/dist
+/build
+/out
+
+# Ignore system files like .DS_Store (macOS) and Thumbs.db (Windows)
+.DS_Store
+Thumbs.db
